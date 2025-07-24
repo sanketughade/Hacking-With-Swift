@@ -66,3 +66,9 @@ let book2 = Book(title: "Lord of the Rings", pageCount: 1178)
 
 print(book2.readingHours)
 
+extension Array {
+    var isNotEmpty: Bool {
+        isEmpty == false
+    }
+}
+
