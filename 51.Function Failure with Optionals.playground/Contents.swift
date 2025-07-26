@@ -27,3 +27,4 @@ if let user = try? getUser(id: 23) {
 //If we want to assign some other value to the user if the getUser() function throws an error then we can show nil coalescing operator as shown in the below example
 
 let user = (try? getUser(id: 23)) ?? "Anonymous"
+print(user)
